@@ -1,0 +1,35 @@
+#herobg {
+  background-image: url("../images/hero/girlbg.jpg");
+  background-size: cover;
+}
+
+#nextgen {
+  color: #3d999e;
+}
+
+#elixr {
+  width: 500px;
+}
+
+@media (max-width: 575.98px) {
+  #elixr {
+    width: 300px;
+  }
+  #clientslider {
+    display: table;
+  }
+}
+
+@media (max-width: 375.98px) {
+  #client {
+    width: 200px;
+  }
+}
+
+#footericons {
+  text-align: center;
+}
+
+#client {
+  width: 200px;
+}
