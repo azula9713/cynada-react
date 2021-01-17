@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import navLinks from "../../api/NavLinks";
+import { Cube } from "react-preloaders";
 import { Link } from "react-router-dom";
 import {
   Collapse,
@@ -186,12 +187,7 @@ class Header3 extends React.Component {
             </div>
           </div>
         ) : (
-          <div id="ht-preloader">
-            <div className="loader clear-loader">
-              <span />
-              <p>BootsLand</p>
-            </div>
-          </div>
+          <Cube color={"#eda0a8"} />
         )}
       </header>
     );
