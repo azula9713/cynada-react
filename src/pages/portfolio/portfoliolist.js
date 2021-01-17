@@ -3,9 +3,6 @@ import Gallrylist from '../../widgets/portfolio/gallrylist';
 import Pageheading from '../../widgets/Pageheading';
 
 class Portfoliolist extends Component {
-  constructor(props) {
-    super(props)
-  }
   componentDidMount() {
     window.scrollTo(0, 0)
   }

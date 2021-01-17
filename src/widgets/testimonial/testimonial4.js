@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';  
+import people1 from "../../assets/images/testimonial/user-1.jpg";
+import people2 from "../../assets/images/testimonial/user-2.jpg";
+import people3 from "../../assets/images/testimonial/user-3.jpg";
+import people4 from "../../assets/images/testimonial/02.jpg";
 window.fn = OwlCarousel;
 
 class Testimonial4 extends Component {
@@ -23,7 +27,7 @@ class Testimonial4 extends Component {
                     <div className="col-12 col-md-10 col-lg-8">
                       <div className="card bg-transparent border-0">
                         <div>
-                          <img alt="Image" src={require(`../../assets/images/testimonial/01.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
+                          <img alt="client" src={people1} className="shadow-primary img-fluid rounded-circle d-inline" />
                         </div>
                         <div className="card-body p-0 mt-5">
                           <p className="lead font-w-5">Cynada Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -41,7 +45,7 @@ class Testimonial4 extends Component {
                     <div className="col-12 col-md-10 col-lg-8">
                       <div className="card bg-transparent border-0">
                         <div>
-                          <img alt="Image" src={require(`../../assets/images/testimonial/02.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
+                          <img alt="client" src={people1} className="shadow-primary img-fluid rounded-circle d-inline" />
                         </div>
                         <div className="card-body p-0 mt-5">
                           <p className="lead font-w-5">Cynada Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
@@ -59,7 +63,7 @@ class Testimonial4 extends Component {
                     <div className="col-12 col-md-10 col-lg-8">
                       <div className="card bg-transparent border-0">
                         <div>
-                          <img alt="Image" src={require(`../../assets/images/testimonial/03.jpg`)} className="shadow-primary img-fluid rounded-circle d-inline" />
+                          <img alt="client" src={people1} className="shadow-primary img-fluid rounded-circle d-inline" />
                         </div>
                         <div className="card-body p-0 mt-5">
                           <p className="lead font-w-5">Cynada Amazing Landing Page All-in-one, clean code, Crative &amp; Modern design. We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>

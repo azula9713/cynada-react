@@ -125,15 +125,6 @@ class Pageheading extends Component {
             <div className="row  text-center">
                 <div className="col">
                     <h1>{this.props.title}</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb justify-content-center bg-transparent p-0 m-0">
-                            <li className="breadcrumb-item"><Link className="text-dark" to="/">Home</Link>
-                            </li>
-                            <li className="breadcrumb-item">Pages</li>
-                            <li className="breadcrumb-item">{this.props.foldername}</li>
-                            <li className="breadcrumb-item active text-primary" aria-current="page">{this.props.title}</li>
-                        </ol>
-                    </nav>
                 </div>
             </div>
         </div>
