@@ -23,12 +23,12 @@
     "react-modal-video": "^1.2.3",
     "react-owl-carousel": "^2.3.1",
     "react-particles-js": "^3.0.2",
-    "react-preloaders": "^3.0.3",
     "react-scripts": "3.4.0",
     "react-toastify": "^5.5.0",
     "react-typed": "^1.2.0",
     "reactstrap": "^8.4.1",
-    "save": "^2.4.0"
+    "save": "^2.4.0",
+    "spinners-react": "^1.0.4"
   },
   "scripts": {
     "start": "webpack-dev-server --open --mode development",

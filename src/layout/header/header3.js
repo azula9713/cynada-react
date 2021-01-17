@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import navLinks from "../../api/NavLinks";
-import { Cube } from "react-preloaders";
 import { Link } from "react-router-dom";
+import { SpinnerCircular } from "spinners-react";
 import {
   Collapse,
   Navbar,
@@ -187,7 +187,11 @@ class Header3 extends React.Component {
             </div>
           </div>
         ) : (
-          <Cube color={"#eda0a8"} />
+          <div id="ht-preloader">
+            <div className="loader clear-loader">
+             <SpinnerCircular/>
+            </div>
+          </div>
         )}
       </header>
     );
