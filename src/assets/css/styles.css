@@ -3,8 +3,18 @@
   background-size: cover;
 }
 
+#comingsoon{
+  background-image: url("../images/bg/cs.jpg");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  background-color: #eda0a8;
+}
+
 #nextgen {
   color: #3d999e;
+}
+.footercontent{
+  justify-content: center;
 }
 
 #elixr {
@@ -26,9 +36,9 @@
   }
 }
 
-#footericons {
+/* #footericons {
   text-align: center;
-}
+} */
 
 #client {
   width: 200px;

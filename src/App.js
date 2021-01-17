@@ -51,11 +51,7 @@ class App extends React.Component {
   }
   setHeader(pathname) {
     let pathArray = pathname.split("/");
-    return `/${pathArray[1]}` === "/"
-      ? true
-      : `/${pathArray[1]}` === "/coming-soon"
-      ? true
-      : false;
+    return `/${pathArray[1]}` === "/" ? true : false;
   }
   render() {
     const { location } = this.props;
