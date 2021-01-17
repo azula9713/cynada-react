@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import people1 from "../../assets/images/testimonial/01.jpg"
-import people2 from "../../assets/images/testimonial/02.jpg"
-import people3 from "../../assets/images/testimonial/03.jpg"
-import people4 from "../../assets/images/testimonial/03.jpg"
+import people1 from "../../assets/images/testimonial/user-1.jpg";
+import people2 from "../../assets/images/testimonial/user-2.jpg";
+import people3 from "../../assets/images/testimonial/user-3.jpg";
+import people4 from "../../assets/images/testimonial/02.jpg";
 
 class Testimonial1 extends Component {
   render() {
@@ -13,7 +13,7 @@ class Testimonial1 extends Component {
             <div className="card p-4 shadow border-0 flex-sm-row">
               <div className="w-50 mr-sm-5 mb-3 mb-sm-0">
                 <img
-                  alt="Image"
+                  alt="client"
                   src={people1}
                   className="shadow-primary img-fluid rounded-circle d-inline"
                 />
@@ -26,6 +26,7 @@ class Testimonial1 extends Component {
                 </q>
                 <div>
                   <h5 className="text-primary d-inline">Kushith Gaveesha</h5>
+                  <br></br>
                   <small className="text-muted font-italic">Pegasus VFX</small>
                 </div>
               </div>
@@ -35,7 +36,7 @@ class Testimonial1 extends Component {
             <div className="card p-4 shadow border-0 flex-sm-row">
               <div className="w-50 mr-sm-5 mb-3 mb-sm-0">
                 <img
-                  alt="Image"
+                  alt="client"
                   src={people2}
                   className="shadow-primary img-fluid rounded-circle d-inline"
                 />
@@ -48,6 +49,7 @@ class Testimonial1 extends Component {
                 </q>
                 <div>
                   <h5 className="text-primary d-inline">Rasanjana Deshan</h5>
+                  <br></br>
                   <small className="text-muted font-italic">
                     Aghanims Solutions
                   </small>
@@ -59,7 +61,7 @@ class Testimonial1 extends Component {
             <div className="card p-4 shadow border-0 flex-sm-row">
               <div className="w-50 mr-sm-5 mb-3 mb-sm-0">
                 <img
-                  alt="Image"
+                  alt="client"
                   src={people3}
                   className="shadow-primary img-fluid rounded-circle d-inline"
                 />
@@ -72,6 +74,7 @@ class Testimonial1 extends Component {
                 </q>
                 <div>
                   <h5 className="text-primary d-inline">Pinipa Dewanmini</h5>
+                  <br></br>
                   <small className="text-muted font-italic">
                     Chocosprinkle
                   </small>
@@ -83,7 +86,7 @@ class Testimonial1 extends Component {
             <div className="card p-4 shadow border-0 flex-sm-row">
               <div className="w-50 mr-sm-5 mb-3 mb-sm-0">
                 <img
-                  alt="Image"
+                  alt="client"
                   src={people4}
                   className="shadow-primary img-fluid rounded-circle d-inline"
                 />
@@ -96,6 +99,7 @@ class Testimonial1 extends Component {
                 </q>
                 <div>
                   <h5 className="text-primary d-inline">Suharsha Perera</h5>
+                  <br></br>
                   <small className="text-muted font-italic">
                     Furniture Mart
                   </small>
