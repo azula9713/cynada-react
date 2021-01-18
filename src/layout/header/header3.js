@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import navLinks from "../../api/NavLinks";
 import { Link } from "react-router-dom";
 import { SpinnerCircular } from "spinners-react";
@@ -6,7 +6,6 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -14,7 +13,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
 } from "reactstrap";
 
 class Header3 extends React.Component {

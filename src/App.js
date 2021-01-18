@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import { HashRouter, Switch, Route, withRouter } from "react-router-dom";
+import React, { Fragment } from "react";
+import { Switch, Route, withRouter } from "react-router-dom";
 import Header from "./layout/header/header3";
 import Footer from "./layout/footer/footer";
 
@@ -16,7 +16,6 @@ import SignIn1 from "./pages/account/signin/signin1";
 import ForgotPassword from "./pages/account/forgotpassword";
 import SignUp from "./pages/account/signup";
 import Pricing from "./pages/utilities/pricing";
-import Faq from "./pages/utilities/faq";
 import Maintenance from "./pages/utilities/maintenance";
 import ComingSoon from "./pages/utilities/comingsoon";
 import PageNotFound from "./pages/utilities/404";
@@ -28,8 +27,6 @@ import OrderComplate from "./pages/shop/product/ordercomplate";
 import ProductGrid from "./pages/shop/product/productgrid";
 import ProductSingle from "./pages/shop/product/productsingle";
 import Cart from "./pages/shop/product/cart";
-import Portfoliolist from "./pages/portfolio/portfoliolist";
-import Portfoliosingle from "./pages/portfolio/portfoliosingle";
 import { getProducts } from "./actions";
 import { connect } from "react-redux";
 import Index4 from "./pages/Index/index4";
@@ -73,11 +70,11 @@ class App extends React.Component {
               <Route path="/career" component={Career} />
 
               {/* Portfolio Pages */}
-              <Route path="/portfolio" component={Portfoliolist} />
+              {/* <Route path="/portfolio" component={Portfoliolist} />
               <Route
                 path={`/portfolio-single/:category/:id`}
                 component={Portfoliosingle}
-              />
+              /> */}
 
               {/* Account Pages */}
               <Route path="/sign-in" component={SignIn1} />
@@ -86,7 +83,6 @@ class App extends React.Component {
 
               {/* Utilitie Pages */}
               <Route path="/pricing" component={Pricing} />
-              <Route path="/faq" component={Faq} />
               <Route path="/privacy-policy" component={PrivacyPolicy} />
               <Route path="/term-condition" component={TermCondition} />
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import skills from "../../assets/images/about/06.png";
+import skills from "../../assets/images/hero/03.png";
 import mobile from "../../assets/images/icon/mobile.svg";
 import seo from "../../assets/images/icon/seo.svg";
 import uiux from "../../assets/images/icon/ui.svg";
